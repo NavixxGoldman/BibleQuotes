@@ -56,7 +56,7 @@ $(document).ready(function(){
     display: 'popup',
     method: 'share',
     href: 'https://eloquent-lewin-0cced4.netlify.com/',
-    hashtag: 'BibleQuotesGasy',
+    hashtag: '#BibleQuotesGasy',
     quote: currentQuote+''+currentAuthor
   }, function(response){});
    /* window.open('https://twitter.com/intent/tweet?text='+ currentQuote +" "+ "-" +currentAuthor)*/
