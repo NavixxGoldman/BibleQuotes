@@ -55,7 +55,9 @@ $(document).ready(function(){
     FB.ui({
     display: 'popup',
     method: 'share',
-    href: 'https://developers.facebook.com/docs/',
+    href: 'https://eloquent-lewin-0cced4.netlify.com/',
+    hashtag: 'BibleQuotesGasy',
+    quote: currentQuote+''+currentAuthor
   }, function(response){});
    /* window.open('https://twitter.com/intent/tweet?text='+ currentQuote +" "+ "-" +currentAuthor)*/
   });
